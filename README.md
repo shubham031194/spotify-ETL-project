@@ -23,5 +23,5 @@ pip install pandas
 pip install spotipy
 ```
 
-###Project Execuation Flow
+### Project Execuation Flow
 Extract Data from spotify API --> Lambda Trigger (every 1 hour) --> Run extract code --> store raw data --> Trigger Transform Funcation --> Transform data and Load It --> Query using Athena.
